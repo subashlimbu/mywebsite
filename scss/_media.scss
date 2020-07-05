@@ -1,0 +1,288 @@
+// Tablets & Smaller
+@media (max-width: 800px) {
+  #main-nav .toggle-button {
+    display: flex;
+  }
+
+  #main-nav .navbar-links {
+    display: none;
+    // width: 100%;
+    background-color: $light-color;
+    border-radius: 15px;
+    opacity: 0.9;
+  }
+
+  #main-nav {
+    flex-direction: column;
+    // align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: 0.5rem 1rem;
+  }
+
+  #main-nav .navbar-links.active {
+    display: flex;
+  }
+
+  #header-home {
+    height: 30rem;
+
+    .header-content {
+      padding-top: 5rem;
+    }
+  }
+}
+
+// Smartphones
+@media (max-width: 500px) {
+  // Nav bar
+  // #main-nav {
+  //   flex-direction: column;
+  //   align-items: center;
+
+  //   li {
+  //     padding: 1rem;
+  //   }
+  // }
+
+  #header {
+    &-home {
+      height: 10rem;
+      border-bottom: 3px solid $main-color;
+      background-position: 20% 30%;
+
+      .header-content {
+        display: none;
+      }
+    }
+  }
+
+  // About
+  #about {
+    display: flex;
+
+    .about-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      p {
+        font-size: 1rem;
+      }
+
+      img {
+        width: 10rem;
+        height: 10rem;
+      }
+    }
+  }
+
+  // Tech icons
+  #skills {
+    .tech-icons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      i {
+        padding: 0.5rem;
+        font-size: 65px;
+      }
+    }
+  }
+
+  // Projects
+  #projects {
+    .item-image {
+      img {
+        width: 300px !important;
+        height: 300px !important;
+      }
+    }
+
+    .project-info {
+      p {
+        font-size: 1rem !important;
+      }
+    }
+  }
+  // Slider
+  i#prevBtn.fa,
+  i#nextBtn.fa {
+    background-color: white;
+  }
+
+  // Education
+  #education {
+    display: flex;
+    padding: 10px 0;
+
+    .container {
+      padding: 5px 0;
+    }
+
+    .edu-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+
+      .edu-info {
+        width: 100%;
+        padding: 1px;
+
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  // Contact
+  #contact-a .container .text-fields {
+    grid-template-areas:
+      "name"
+      "subject"
+      "email"
+      "phone"
+      "message";
+  }
+
+  #contact-b .container .contact-info {
+    grid-template-columns: 1fr;
+
+    div {
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px #555 solid;
+
+      &:last-child {
+        border: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  #contact-c .container {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  // Footer
+  #main-footer {
+    padding: 0 1rem !important;
+
+    div.footer-content.container {
+      height: 15rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 0 1rem;
+    }
+  }
+  div.social {
+    padding-bottom: 100px;
+  }
+}
+
+// Medium screen
+@media (min-width: 501px) and (max-width: 1100px) {
+  #projects {
+    .item-image {
+      img {
+        width: 500px !important;
+        height: 400px !important;
+      }
+    }
+  }
+
+  i#prevBtn.fa,
+  i#nextBtn.fa {
+    background-color: white;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 850px) {
+  #about {
+    display: flex;
+
+    .about-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 10rem;
+        height: 10rem;
+      }
+    }
+  }
+
+  #education {
+    display: flex;
+    padding: 10px 0;
+
+    .container {
+      padding: 5px 0;
+    }
+
+    .edu-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+
+      .edu-info {
+        width: 100%;
+        padding: 1px;
+      }
+    }
+  }
+
+  #main-footer {
+    padding: 0 1rem !important;
+
+    div.footer-content.container {
+      height: 10rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding: 15px 5px;
+    }
+  }
+}
+
+// Landscape
+@media (max-height: 580px) {
+  #header-home {
+    .header-content {
+      padding-top: 3rem !important;
+    }
+  }
+}
+
+@media (max-height: 330px) {
+  #header-home {
+    .header-content {
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  }
+}

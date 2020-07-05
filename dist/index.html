@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&family=Source+Serif+Pro:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Subash Limbu | Web Developer</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-home">
+      <div class="container">
+        <nav id="main-nav">
+          <a href="#" class="logo">S<span>L</span></a>
+          <div class="navbar-links">
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#contact-a">Contact</a></li>
+            </ul>
+          </div>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+        </nav>
+        <div class="header-content">
+          <h1>Hi! I am Subash Limbu</h1>
+          <h2>
+
+            The
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Web Designer", "Full Stack Web Developer", "Self-Learner"]'
+            ></span>
+          </h2>
+          <p class="lead">I specialize in Frontend/Backend Web Development</p>
+          <a href="#projects" class="btn-light">View My Work</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Me -->
+    <section id="about" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Let me tell you a little about myself and what I do...
+        </p>
+        <div class="about-info">
+          <img src="img/gap.jpg" alt="" class="src" />
+          <div class="bio">
+            <h3>Intro</h3>
+            <p>
+              My sheer passion in technology and curiosity to learn programming
+              led me to a Computer Science degree which taught me wide aspects
+              of software development processes and designs. To sharpen my
+              skills in programming further and dive deeper into it, I enrolled
+              in the General Assembly Software Engineering Immersive course. My
+              time here has taught me to become a better developer through
+              logical and creative thinking and problem-solving techniques. I am
+              keen to work as a full-stack-developer where I can deliver my
+              knowledge putting it to a good use.
+            </p>
+            <h3>Interests</h3>
+            <p>
+              I am a self-learner. I love learning new languages and frameworks
+              and stay update with the latest technologies. I am always using
+              this knowledge to work on the new projects. Travelling to new
+              places, France being my favourite, where I can admire the
+              historical structures and beauty of the place. It helps open my
+              mind. Meeting people from other places shows that everyone has
+              their own approach to the world. I enjoy video games, especially
+              FIFA on PS4. Socialising with friends during free time, going to
+              pubs, parks or gathering. Watching and playing sports such as
+              football (supports Arsenal FC), basketball and cricket.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="text-center py-3 bg-light">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">I've worked with</p>
+        <div class="tech-icons py-1">
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-sass-original colored"></i>
+          <i class="devicon-react-original-wordmark colored"></i>
+          <i class="devicon-nodejs-plain-wordmark colored"></i>
+          <i class="devicon-express-original-wordmark"></i>
+          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+          <i class="devicon-babel-plain colored"></i>
+          <i class="devicon-webpack-plain-wordmark"></i>
+          <i class="devicon-mongodb-plain-wordmark colored"></i>
+          <i class="devicon-mysql-plain-wordmark colored"></i>
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <i class="devicon-github-plain-wordmark colored"></i>
+          <i class="devicon-heroku-plain-wordmark colored"></i>
+          <i class="devicon-postgresql-plain-wordmark colored"></i>
+          <i class="devicon-jquery-plain-wordmark colored"></i>
+          <i class="devicon-python-plain-wordmark colored"></i>
+          <i class="devicon-mocha-plain colored"></i>
+          <i class="devicon-visualstudio-plain-wordmark colored"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project -->
+    <section id="projects" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">My Work</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Check out some of my projects
+        </p>
+
+        <div class="carousel-container">
+          <i class="fa fa-arrow-left" id="prevBtn" onclick="plusSlides(-1)"></i>
+          <i
+            class="fa fa-arrow-right"
+            id="nextBtn"
+            onclick="plusSlides(1)"
+          ></i>
+
+          <div class="carousel-slide">
+            <div class="items">
+              <div class="item">
+                <div class="item-image">
+                  <img src="img/project3.png" alt="" />
+                </div>
+                <!-- <div class="item-text">
+                  <div class="item-text-wrap">
+                    <p class="item-text-category">UI/UX</p>
+                    <h2 class="item-text-title">World Experience</h2>
+                  </div>
+                </div> -->
+                <div class="project-info py-2">
+                  <h2>Food For Thought</h2>
+                  <p>Duration: 7-days, Group:4</p>
+                  <p>
+                    This project allows users to find the lists of restaurants
+                    with search by cuisine category. It also allows users to
+                    register, login, comment and upload pictures of a particular
+                    restaurant. As per the planning, we added the lists of
+                    restaurants first. Then I used the search and dropdown box
+                    filter to display the lists of restaurants. For CSS, I used
+                    Bulma. I carried out authentication using a token provided
+                    when logging as well as password changing.
+                  </p>
+                  <p class="tech">
+                    Languages and Technologies used:
+                  </p>
+                  <p>
+                    HTML5 | CSS3 | Bulma | JavaScript(ES6) | React | Express |
+                    MongoDB | Node.js | MapBox API | Github | Heroku
+                  </p>
+                  <a href="https://github.com/subashlimbu/project-3 " target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                  <a href="https://foodforthought34.herokuapp.com/" target="_blank"><i class="fas fa-link fa-2x"></i></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item-image">
+                  <img src="img/project4.png" alt="" />
+                </div>
+                <!-- <div class="item-text">
+                  <div class="item-text-wrap">
+                    <p class="item-text-category">Design</p>
+                    <h2 class="item-text-title">Great Gradients</h2>
+                  </div>
+                </div> -->
+                <div class="project-info py-2">
+                  <h2>LABS - Laboratory Appointment Booking System</h2>
+                  <p>Duration: 1 week, Group: 4</p>
+                  <p>
+                    In a project, we all had specific roles, where mine was to
+                    create a functionality of login and register the user. I had
+                    to create a user model with the required fields. I used
+                    Django for the back end and React for the front end, whereas
+                    Python served for the functionality. Login and register form
+                    validation was also achieved. I used CSS for the forms and
+                    styling. Similarly, I made the filter function to search for
+                    the particular services along with the styling.
+                  </p>
+                  <p class="tech">
+                    Languages and Technologies used:
+                  </p>
+                  <p>
+                    HTML5 | CSS3 | Bulma | JavaScript(ES6) | React | Python |
+                    MySQL | Django | Insomnia | TablePlus | GitHub | Heroku
+                  </p>
+                  <a
+                    href="https://github.com/subashlimbu/project-4"
+                    target="_blank"
+                    ><i class="fab fa-github fa-2x"></i
+                  ></a>
+                  <a
+                    href="https://labsproject4.herokuapp.com/#/"
+                    target="_blank"
+                    ><i class="fas fa-link fa-2x"></i
+                  ></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item-image">
+                  <img src="img/project2.png" alt="" />
+                </div>
+                <!-- <div class="item-text">
+                  <div class="item-text-wrap">
+                    <p class="item-text-category">Photography & Design</p>
+                    <h2 class="item-text-title">Vanishing</h2>
+                  </div>
+                </div> -->
+                <div class="project-info py-2">
+                  <h2>TFL Travel</h2>
+                  <p>Duration: 2-days, Group: 2</p>
+                  <p>
+                    This is an app where users can search for the particular
+                    tube line and get its status live. The users can also see
+                    the live timetable towards a particular direction. It uses
+                    HTML, CSS, JavaScript, React and Github. I used Axios to
+                    fetch the data from an external TFL API.
+                  </p>
+                  <p class="tech">
+                    Languages and Technologies used:
+                  </p>
+                  <p>HTML5 | CSS3 | Bulma | JavaScript(ES6) | React | Github</p>
+                  <a href="https://github.com/subashlimbu/project-2" target="_blank"<i class="fab fa-github fa-2x"></i></a>
+                  <a href="https://subashlimbu.github.io/project-2/" target="_blank"><i class="fas fa-link fa-2x"></i></a>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="item-image">
+                  <img src="img/project1.png" alt="" />
+                </div>
+                <!-- <div class="item-text">
+                  <div class="item-text-wrap">
+                    <p class="item-text-category">Design</p>
+                    <h2 class="item-text-title">Gap INC</h2>
+                  </div>
+                </div> -->
+                <div class="project-info py-2">
+                  <h2>Space Invaders</h2>
+                  <p>Duration: 1 week, Individual</p>
+                  <p>
+                    In this very popular game, a group of aliens drop bombs in
+                    an interval. I had to create a player with a laser which
+                    shoots as I press the shoot (space bar) button. An alien
+                    gets removed if hit by the laser and player gets destroyed
+                    if hit by a bomb. The player has 3 lives and if all used the
+                    game is over. HTML displays scores, instructions and the
+                    game level. CSS is used to style the letters, aliens and the
+                    player. In JavaScript, I used the functions like
+                    alienMoving, dropBomb, startGame and endGame. The function
+                    uses setInterval where bombs are dropped in intervals.
+                    Similarly, removeAlien function removes aliens if hit by the
+                    player’s laser. I put a condition in the player's lives: if
+                    it is 0, the game ends, and if there are no more aliens, the
+                    player wins.
+                  </p>
+                  <p class="tech">
+                    Languages and Technologies used:
+                  </p>
+                  <p>HTML5 | CSS3 | JavaScript(ES6) | GitHub</p>
+                  <a href="https://github.com/subashlimbu/project-1" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                  <a href="https://subashlimbu.github.io/project-1/" target="_blank"><i class="fas fa-link fa-2x"></i></a>
+                </div>
+              </div>
+
+              <div class="dots" style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="text-center bg-light py-3">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="bottom-line"></div>
+        <div class="edu-container">
+          <div class="edu-info py-3">
+            <h3>General Assembly</h3>
+            <h4>Software Engineering Immersive</h4>
+            <h4>February 2020 – May 2020, London</h4>
+            <p>
+              A 12-week, full-time immersive software engineering program. Each
+              day consisted of a daily stand-up which gave us an opportunity to
+              review the previous day and discuss any wins and blockers followed
+              by tutorials, labs and homework to solidify our understanding.
+            </p>
+            <p>
+              The languages covered include HTML, CSS, JavaScript, Python,
+              Django and SQL. The frameworks and libraries covered include
+              Express.js, React.js and SASS. The tools and technologies learned
+              include Node.js, MongoDB, PostgreSQL, Git/Github, RESTful API.
+            </p>
+          </div>
+          <div class="edu-info py-3">
+            <h3>West London College</h3>
+            <h3>(University of Greenwich)</h3>
+            <h4>BSc in Computer Science</h4>
+            <h4>September 2008 - June 2011</h4>
+            <p>
+              This degree in Computer Science gave me a firm grasp of the
+              science underpinning computer and software systems. I gained
+              practical experience of developing systems using the latest
+              technologies and techniques, as well as exposure to the latest
+              trends that will shape the future of computer science.
+            </p>
+            <p>
+              Worked on various projects: Hotel Management System, e-commerce
+              site, TFL Payment System using JavaScript, HTML, CSS, Java,
+              Textpad, MySQL, Microsoft Access.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section A: Contact Form -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here is how you can reach me</p>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email Address"
+              name="email"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="message"
+              name="message"
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button type="submit" class="btn-light">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section B: Contact Info -->
+    <section id="contact-b" class="py-3">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>Email</h3>
+            <p>subashlimbu700@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>Phone</h3>
+            <p>07546123554</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p>27 Salisbury Road, London</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section C: Tagline -->
+    <section id="contact-c" class="bg-main py-4">
+      <div class="container">
+        <h1>Let's Start Your Next Project</h1>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p class="my-2">
+          Copyright &copy; 2020 All Rights Reserved | ♥️ by Subash
+        </p>
+        <div class="social">
+          <a href="https://github.com/subashlimbu" target="_blank"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
+          <a href="mailto: subashlimbu700@gmail.com" target="_blank"
+            ><i class="fas fa-envelope fa-2x"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/subashlimbu/" target="_blank"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </div>
+      </div>
+      <div class="scrolltop float-right">
+        <i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+      </div>
+    </footer>
+
+    <!-- Navbar toggle -->
+    <script src="js/toggle.js"></script>
+
+    <!-- Type Effect -->
+    <script src="js/typewriter.js"></script>
+
+    <!-- Scroll Top -->
+    <script src="js/scroll.js"></script>
+
+    <!-- Slideshow Effec -->
+    <script src="js/slideshow.js"></script>
+
+    <!-- Top Arrow Function -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(".count").counterUp({
+        delay: 10,
+        time: 3000,
+      });
+
+      // Get the button
+      mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 90 ||
+          document.documentElement.scrollTop > 90
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; //For Safari
+        document.documentElement.scrollTop = 0; //For Chrome, Firefox, IE and Opera
+      }
+    </script>
+  </body>
+</html>
